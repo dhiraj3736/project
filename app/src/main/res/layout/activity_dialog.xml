@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dialog_Activity"
+    android:orientation="vertical">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/asum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sum"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="20dp"
+       />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/aarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Area of triangle"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="20dp"
+
+        />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/asi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="simple interest"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="20dp"
+       />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/acircle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="area of circle"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="20dp"
+        />
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
